@@ -1,6 +1,6 @@
-# Message Board
+# Mini Message Board
 
-## Message Board - Overview
+## Mini Message Board - Overview
 
 This is the second project of the "NodeJS" course within "The Odin Project".
 
