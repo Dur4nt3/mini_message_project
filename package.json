@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1"
+  },
+  "name": "mini_message_project",
+  "version": "1.0.0",
+  "description": "Mini Message Board | The Odin Project | NodeJS",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dur4nt3/mini_message_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Dur4nt3/mini_message_project/issues"
+  },
+  "homepage": "https://github.com/Dur4nt3/mini_message_project#readme"
+}
