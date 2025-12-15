@@ -14,9 +14,9 @@
         <% for (const messageIndex in locals.messages) { %>
             <% const message = locals.messages[messageIndex] %>
             <div class="message-cont">
-                <h2>From: <%= message.user %></h2>
-                <a href=<%= `/messages/${messageIndex}` %>>Open</a>
-                <p class="message-time">@ <%= message.added.toString().split(' GMT')[0] %></p>
+                <h2>From: <%= message.username %></h2>
+                <a href=<%= `/messages/${message.id}` %>>Open</a>
+                <p class="message-time">@ <%= message.added.toString().split(' GMT')[0] %> UTC</p>
             </div>
         <% } %>
     </div>

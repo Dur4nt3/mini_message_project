@@ -9,6 +9,7 @@
     </head>
     <body>
         <h1>New Message:</h1>
+        <%- include("partials/errors.ejs", { errors: locals.errors }) %>
         <form action="/new" method="POST">
             <label for="from">
                 <p>From:</p>
